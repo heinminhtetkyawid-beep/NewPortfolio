@@ -182,4 +182,70 @@ nav .socials a:last-child {
 
 #accounts .accounts-container a:last-child {
     color: #c4c410
+
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #main-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .portrait img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #links .links-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #accounts .accounts-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav .name a {
+        font-size: 20px;
+    }
+
+    nav .socials a {
+        font-size: 18px;
+    }
+
+    #hello {
+        font-size: 30px;
+    }
+
+    #main-section {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .portrait img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    #links .brief {
+        font-size: 30px;
+    }
+
+    #links .links-container a {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    #accounts .accounts-container a {
+        font-size: 16px;
+        padding: 15px;
+    }
 }
